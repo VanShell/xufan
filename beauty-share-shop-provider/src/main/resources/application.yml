@@ -1,0 +1,23 @@
+server:
+  port: 8088
+# Dubbo Config properties
+dubbo:
+  scan:
+    base-packages: com.beauty.provider.service
+  # ApplicationConfig Bean
+  application:
+    #原则上和项目名称一致，并且一般id和name是一样的
+    id: beauty-share-shop-provider
+    name: beauty-share-shop-provider
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: 8080
+  # RegistryConfig Bean
+  registry:
+    id: zookeeper
+    address: zookeeper://192.168.1.100:2181
+    protocol: zookeeper
+
+
+
