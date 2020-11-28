@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-28T10:41:06.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="HTAQrJqQgPrQVPCfR8jc" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-28T10:47:51.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="2CEXDBf4nOxqwjuAu8vK" version="13.10.4" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="942" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -112,6 +112,30 @@
         </mxCell>
         <mxCell id="i2oFOC0C8w76gWN_n1rr-48" value="MQ" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Policy.svg;rounded=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#F2F7FF;" vertex="1" parent="1">
           <mxGeometry x="480" y="772" width="45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-49" value="RabbitMQ" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="540" y="772" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-50" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="810" y="750" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-51" value="虚拟库存" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#F2F7FF;" vertex="1" parent="1">
+          <mxGeometry x="840" y="762" width="70" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-52" value="商家微信配置" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#F2F7FF;" vertex="1" parent="1">
+          <mxGeometry x="840" y="788" width="80" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-53" value="用户登录信息" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#F2F7FF;" vertex="1" parent="1">
+          <mxGeometry x="840" y="818" width="80" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-54" value="商家登录信息" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#F2F7FF;" vertex="1" parent="1">
+          <mxGeometry x="938" y="760" width="80" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-55" value="物流信息" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#F2F7FF;" vertex="1" parent="1">
+          <mxGeometry x="938" y="786" width="80" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-56" value="分享大使信息" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;fillColor=#F2F7FF;" vertex="1" parent="1">
+          <mxGeometry x="938" y="818" width="80" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
