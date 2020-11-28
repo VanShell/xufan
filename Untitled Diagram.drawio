@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-28T09:29:36.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="03S9WJB4a2fNMa1-gyP_" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-28T09:48:23.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="w30EqmnsPmX59UWeBG2E" version="13.10.4" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="220" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,16 +8,13 @@
           <mxGeometry x="320" y="90" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rYfO1-NzK2FPPUvevO7r-43" value="Config-Server配置中心" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="440" y="240" width="80" height="80" as="geometry" />
+          <mxGeometry x="976" y="212.5" width="107.5" height="107.5" as="geometry" />
         </mxCell>
-        <mxCell id="rYfO1-NzK2FPPUvevO7r-44" value="Zuul Gateway网关" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="520" y="320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="rYfO1-NzK2FPPUvevO7r-45" value="服务中心" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="320" y="200" width="80" height="80" as="geometry" />
+        <mxCell id="rYfO1-NzK2FPPUvevO7r-44" value="Zuul Gateway网关" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="826" y="212.5" width="107.5" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="rYfO1-NzK2FPPUvevO7r-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="90" width="960" height="80" as="geometry" />
+          <mxGeometry x="420" y="90" width="680" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rYfO1-NzK2FPPUvevO7r-47" value="" style="shape=mxgraph.signs.healthcare.cardiology;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="450" y="110" width="50" height="40" as="geometry" />
@@ -26,7 +23,7 @@
           <mxGeometry x="520" y="120" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="i2oFOC0C8w76gWN_n1rr-2" value="Eureka" style="aspect=fixed;pointerEvents=1;shadow=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.cloud;strokeColor=none;perimeterSpacing=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="114" width="50" height="32" as="geometry" />
+          <mxGeometry x="620" y="114" width="50" height="32" as="geometry" />
         </mxCell>
         <mxCell id="i2oFOC0C8w76gWN_n1rr-13" value="多节点相互注册" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="970" y="120" width="90" height="26" as="geometry" />
@@ -36,6 +33,52 @@
         </mxCell>
         <mxCell id="i2oFOC0C8w76gWN_n1rr-15" value="Eureka" style="aspect=fixed;pointerEvents=1;shadow=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.cloud;strokeColor=none;perimeterSpacing=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="114" width="50" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-16" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="678" y="131" as="sourcePoint" />
+            <mxPoint x="740" y="129" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-18" value="服务中心" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="80" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-19" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.enterprise.settings" vertex="1" parent="1">
+          <mxGeometry x="1009.75" y="212.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-21" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.protection;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="855.75" y="212.5" width="50.25" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-23" value="顾客服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="239.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-24" value="进销存服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="517" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-25" value="商家服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="292" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-26" value="订单服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="457" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-27" value="营销服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="349" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-28" value="用户服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="404" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-29" value="商家进销存服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="567" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-30" value="WEB-APP&lt;br&gt;服务器集群" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="700" y="212.5" width="120" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-31" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cognitive_Services.svg;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="735" y="232.5" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-33" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="431" y="212.5" width="190" height="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
