@@ -1,20 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2020-11-28T10:28:49.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="D12KVKVdSsfrGgmA4nmM" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-28T10:32:06.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="eMJLLve6iSerLq2c3jxB" version="13.10.4" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="942" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-43" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;strokeColor=#82b366;fillColor=#d5e8d4;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="190" width="710" height="480" as="geometry" />
+        </mxCell>
         <mxCell id="i2oFOC0C8w76gWN_n1rr-39" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;shadow=1;z-index=101;fillColor=#F2F7FF;" vertex="1" parent="1">
           <mxGeometry x="440" y="210" width="180" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="rYfO1-NzK2FPPUvevO7r-42" value="注册中心" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="rYfO1-NzK2FPPUvevO7r-42" value="注册中心" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
           <mxGeometry x="320" y="90" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rYfO1-NzK2FPPUvevO7r-43" value="Config-Server配置中心" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1008" y="245.5" width="107.5" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="rYfO1-NzK2FPPUvevO7r-44" value="Zuul Gateway网关" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
-          <mxGeometry x="858" y="245.5" width="107.5" height="107.5" as="geometry" />
+          <mxGeometry x="862.5" y="242" width="107.5" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="rYfO1-NzK2FPPUvevO7r-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="90" width="680" height="80" as="geometry" />
@@ -44,8 +47,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="i2oFOC0C8w76gWN_n1rr-18" value="服务中心" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
-          <mxGeometry x="320" y="200" width="80" height="460" as="geometry" />
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-18" value="服务中心" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="80" height="510" as="geometry" />
         </mxCell>
         <mxCell id="i2oFOC0C8w76gWN_n1rr-19" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.enterprise.settings" vertex="1" parent="1">
           <mxGeometry x="1041.75" y="245.5" width="40" height="40" as="geometry" />
@@ -95,8 +98,8 @@
         <mxCell id="i2oFOC0C8w76gWN_n1rr-38" value="Feign/Ribbon" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="649" y="450" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="i2oFOC0C8w76gWN_n1rr-40" value="中间件" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
-          <mxGeometry x="320" y="700" width="80" height="195.5" as="geometry" />
+        <mxCell id="i2oFOC0C8w76gWN_n1rr-40" value="中间件" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0e8088;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="80" height="195.5" as="geometry" />
         </mxCell>
         <mxCell id="i2oFOC0C8w76gWN_n1rr-29" value="商家进销存服务" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
           <mxGeometry x="470" y="590" width="120" height="35" as="geometry" />
